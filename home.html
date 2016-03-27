@@ -23,40 +23,44 @@
     <![endif]-->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body background = "trippyBackground.jpg">
+  <section id = "splash">
+  <body style = "background-color: #FFFFFF;">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar" id = "menu">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="main.html">[Music App]</a>
+          <a class="navbar-brand" href="main.html">GroupJam</a>
         </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="main.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up!</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOG IN</a></li>
         </ul>
       </div>
     </nav>
 
 		<div id = "header">
-			<h4 class = "text-center" style = "font-family: Montserrat"> <br> Welcome to <br> [Music Site]! <br></h4>
+			<h4 class = "text-center" style = "font-family: Montserrat"> <br> Let the partygoers be the DJ </h4>
 		</div>
+    </section>
 
 		<div class = "well well-lg" id = "body">
-			<h2 class = "text-center">
-				What [Music Site] is:
+			<h2 class = "text-center" id = "ourTeam">
+				What is GroupJam?
 			</h2>
 			<p>
-				How many times have you been at a party, in a car, or even just hanging out with friends,
-        and the music playing absolutely sucks? Well, [Music Site] aims to fix that issue. If you use [Music App],
-        the days of hearing songs nobody likes are over. By voting on what songs you want to hear, the most-wanted song will always be playing.
+				Name the last time you were at a party, get-together, or even just hanging out with friends, and the music playing
+        was absolutely awful. Probably not that long ago.
 			</p>
+      <p>
+        With [Music App], the days of crappy DJs are over. How can we eliminate such a timeless plague on party-goers everywhere, you ask?
+        Simple: we simply make everybody the DJ. All the host of the party has to do is create a [group] and have guests join the group. From
+        there, guests can both suggest and vote on songs. Whichever song has the most votes by the time the current song ends, plays next.
+        That way, it's a guarantee that songs people want to hear will always be playing. Easy as that!
+      </p>
+      <p>
+        So kiss the days of hearing Sweet Caroline at a rager or Shots at a barbecue goodbye! Use [Music App], and let your party be its
+        own DJ!
+      </p>
 
 			<h3 class = "text-center">
 				Join Us!
@@ -69,7 +73,33 @@
 		</div>
 
     <footer id = "footer">
-      <p class = "text-center"> Site managed by Carter Klein | Last Update: 3/7/2016 | Questions or comments email carterklein13@gmail.com </p>
+      <nav class="navbar" id = "footerLinks">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Invite Friends</a></li>
+            <li><a href="#">Work for Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="social-icons">
+        <ul>
+          <li class="twitter" style="background-color: #ededed">
+            <a href="http://www.twitter.com/techandallcom" target="_blank">Twitter</a>
+          </li>
+
+          <li class="facebook" style="background-color: #ededed">
+            <a href="http://www.facebook.com/techandallcom" target="_blank">Facebook</a>
+          </li>
+
+          <li class="youtube" style="background-color: #ededed">
+            <a href="http://www.twitter.com/techandallcom" target="_blank">YouTube</a>
+          </li>
+        </ul>
+      </div>
+      <div id = "siteInfo">
+        <p class = "text-center"> Site managed by Carter Klein | Last Update: 3/27/2016 | Questions or comments email carterklein13@gmail.com </p>
+      </div>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
